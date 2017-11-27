@@ -16,6 +16,7 @@ build/images/wanparty-%: mnts/loop-%.cd iso-src/%
 build/images/wanparty-%.iso: build/images/wanparty-%
 	sudo genisoimage -o $@ -r -J -no-emul-boot -boot-load-size 4 -boot-info-table -b isolinux/isolinux.bin -c isolinux/boot.cat $<
 	md5sum $@ > $@.md5
+	gpg  --output $@.sig --detach-sign $@
 
 
 .PHONY: clean
