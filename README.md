@@ -15,7 +15,7 @@ Les images se trouvent dans le répertoire ``build/images``
 * La carte reconnue comme `eth1` sera celle coté joueurs
 * le disque dur est completement repartitionné et effacé
 
-si après install, les cartes ne sont pas les bonnes, refaire l'install en permutant les branchements, c'est plus simple et fiable. sinon le repertoire `/etc/udev/rules.d` contient un fichier template qui permet de forcer les noms des interfaces. 
+si après install, les cartes ne sont pas les bonnes, refaire l'install en permutant les branchements, c'est plus simple et fiable. sinon le repertoire `/etc/udev/rules.d` contient un fichier [template](https://github.com/wanrt/wanparty-network-config/blob/master/usr/share/wanparty/etc/udev/rules.d/70-persistent-net.rules.template) qui permet de forcer les noms des interfaces. 
 
 ## Installation :
 L'installtion est complètement automatique, sauf une question pour renseigner le numéro de votre département et une autre pour le proxy si vous en avez besoin. Sinon vous pouvez laisser le champ vide.
