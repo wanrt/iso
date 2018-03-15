@@ -41,11 +41,8 @@ Les sources pour générer un tel dépôt sont sur : [wanrt/repository](https://
 - `wanparty-ntop` : affiche le trafic réseau actuel par machine. Le mieux est de l'utiliser avec la commande : `watch wanparty-ntop`.
 
 
-### fichier logs 
+### fichiers logs 
 tous les fichiers logs sont sur `/var/log/wanparty/`.
-
-
-
 
 
 ## création de l'iso (développeurs)
